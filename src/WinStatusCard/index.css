@@ -1,0 +1,43 @@
+.winorloss-image {
+  width: 190px;
+}
+.titleandimage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.winorloss-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.winorlosstitle-heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+.button-style-playagain {
+  padding: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 8px;
+  border-width: 0px;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 567px) {
+  .winorlosstitle-heading {
+    font-size: 25px;
+  }
+  .winorloss-image {
+    width: 155px;
+  }
+}
